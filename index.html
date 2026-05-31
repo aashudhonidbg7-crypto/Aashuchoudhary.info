@@ -4,6 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Incomiq by Aashu Choudhary | Income Tax, GST & Financial Compliance Services India</title>
+  <!-- Basic SEO Meta Tags -->
+<title>Aashu Choudhary | Financial Advisor, Tax & Audit Expert in India</title>
+<meta name="description" content="Aashu Choudhary is a trusted financial advisor in India. Expert in Income Tax, GST, Audit, Compliance & Investments. Founder of Incomiq By Aashu.">
+<meta name="keywords" content="Aashu Choudhary, Aashu Chaudhary, Ashu Choudhary, Aashu Darbhanga, Aashu, Incomiq By Aashu, Financial advisor in India, best Tax expert, Best Audit expert, Income Tax consultant, GST expert India, Audit services India">
+<meta name="author" content="Aashu Choudhary">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Open Graph (for WhatsApp, Facebook, LinkedIn) -->
+<meta property="og:title" content="Aashu Choudhary | Financial & Tax Expert in India">
+<meta property="og:description" content="Trusted financial compliance platform by Aashu Choudhary. Tax, GST, Audit & Investment guidance across India.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Incomiq By Aashu">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aashu Choudhary | Tax & Financial Expert">
+<meta name="twitter:description" content="Best tax, audit & financial advisory services in India by Aashu Choudhary.">
 <meta name="description" content="Aashu Choudhary's Incomiq — Expert income tax filing, GST registration, TDS compliance, trademark & company compliance services across India. Free financial tools at incomiq.in">
 <meta name="keywords" content="Aashu Choudhary, Incomiq, income tax filing India, GST registration, TDS compliance, trademark registration, company compliance, financial advisor Bangalore, Incomiq by Aashu">
 <link rel="canonical" href="https://www.aashuchoudhary.info">
@@ -14,6 +30,18 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="author" content="Aashu Choudhary">
 <meta name="robots" content="index, follow">
+  <!-- Favicon -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- PNG Favicons -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Web App Manifest (optional but recommended) -->
+<link rel="manifest" href="/site.webmanifest">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232563EB'/><text x='16' y='23' font-size='20' font-family='Georgia,serif' font-weight='bold' fill='white' text-anchor='middle'>I</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=DM+Sans:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
@@ -96,11 +124,11 @@ nav{display:flex;gap:4px;align-items:center;}
 /* HERO */
 .hero{
   background:linear-gradient(135deg,#0B1F5E 0%,#1B3B8A 55%,#1d50c9 100%);
-  padding:96px 28px 88px;position:relative;overflow:hidden;
+  padding:72px 24px 88px;position:relative;overflow:hidden;
 }
 .hero-dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.055) 1px,transparent 1px);background-size:32px 32px;pointer-events:none;}
 .hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 65% 55% at 70% 50%,rgba(255,255,255,.05) 0%,transparent 65%);pointer-events:none;}
-.hero-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1;}
+.hero-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.1fr 0.9fr;gap:48px;align-items:center;position:relative;z-index:1;}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(245,158,11,.15);border:1px solid rgba(245,158,11,.35);color:var(--gold);padding:6px 16px;border-radius:40px;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:22px;}
 .hero h1{font-family:'Playfair Display',serif;font-size:clamp(32px,4.2vw,54px);font-weight:800;color:white;line-height:1.12;letter-spacing:-1px;margin-bottom:16px;}
 .hero h1 em{font-style:italic;color:var(--gold);}
@@ -119,7 +147,21 @@ nav{display:flex;gap:4px;align-items:center;}
 .hstat-num{font-family:'Playfair Display',serif;font-size:24px;font-weight:800;color:var(--gold);display:block;}
 .hstat-label{font-size:11px;color:rgba(255,255,255,.6);margin-top:2px;font-weight:500;}
 .hero-img-main{border-radius:18px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);}
-.hero-img-main img{width:100%;display:block;object-fit:cover;max-height:400px;}
+.hero-img-main img{width:100%;display:block;object-fit:cover;max-height:360px;}
+  @media (max-width: 900px){
+  .hero-inner{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .hero-img-main{
+    margin:0 auto;
+  }
+
+  .hero-img-main img{
+    max-height:280px;
+  }
+}
 
 /* HOME — WHY INCOMIQ */
 .why-sec{background:var(--white);}
